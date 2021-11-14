@@ -1,0 +1,27 @@
+package selfProgramming;
+import java.util.Scanner;
+		/*Create a program that will accept student's name and age. 
+		 *If the student's age is above 20 and below 45, 
+		 *The program will print a message " You are eligible to take a PhD programme".
+		*/
+public class Student {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		String name;
+		   int  age;
+		
+		System.out.println("Enter your name : ");
+		name = sc.next();
+		
+		System.out.println("Enter your age  : ");
+		age  = sc.nextInt();
+		
+		
+		if ((age>20) && (age<45))
+			System.out.println(name +", you are eligible to take a PhD programme.");
+	}
+
+}
