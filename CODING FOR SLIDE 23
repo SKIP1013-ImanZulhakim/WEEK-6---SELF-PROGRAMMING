@@ -17,9 +17,11 @@ public class ifElseStatement {
 		System.out.println("Enter OVERDRAFT_PENALTY : ");
 		int OVERDRAFT_PENALTY = sc.nextInt();
 		
+		//if condition is true do this
 		if (amount <= balance)  
 			balance = balance - amount;
 			
+		//if false do this	
 		else 
 			balance = balance - OVERDRAFT_PENALTY;
 			
