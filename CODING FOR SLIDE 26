@@ -1,0 +1,29 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class MultipleSelectionNestedIf {
+
+	public static void main(String[] args) {
+		// Multiple Selection (nested if)
+		
+		Scanner sc = new Scanner(System.in);
+	
+		System.out.println("Enter age : ");
+		int age = sc.nextInt();
+		
+		String guardian = "True";
+		
+		
+		if ((age >= 25) && (age <= 50))
+			 System.out.println("You are qualified to apply");
+		else
+			if (guardian == "True")
+				System.out.println("You are qualified to apply with guardian help.");
+			else
+				System.out.println("You are NOT qualified to apply"); 
+		
+		sc.close();
+	}
+
+}
