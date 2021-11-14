@@ -1,0 +1,31 @@
+package selfProgramming;
+import java.util.Scanner;
+
+public class ifElseStatement {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		// To execute a statement when a condition is true or false
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter amount : ");
+		int  amount = sc.nextInt();
+		
+		System.out.println("Enter balance :");
+		int balance = sc.nextInt();
+		
+		System.out.println("Enter OVERDRAFT_PENALTY : ");
+		int OVERDRAFT_PENALTY = sc.nextInt();
+		
+		if (amount <= balance)  
+			balance = balance - amount;
+			
+		else 
+			balance = balance - OVERDRAFT_PENALTY;
+			
+		
+		System.out.println("Your balance is " + balance);
+		sc.close();
+	}
+
+}
