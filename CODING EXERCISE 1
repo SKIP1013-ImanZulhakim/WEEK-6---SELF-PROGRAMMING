@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class PosNev {
+
+	public static void main(String[] args) {
+		//Write a Java program to get a number from the user and print whether it is positive or negative.
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Number : ");
+		int num = sc.nextInt();
+		
+		if (num>=1)
+		{
+			  System.out.println ("The number you enter is :" + num);
+			  System.out.println ("You enter the positive number");	
+	  }		
+		else if (num<0)
+		{	
+			  System.out.println ("The number you enter is :" + num);
+			  System.out.println ("You enter the negative number");	
+	  }
+		sc.close();
+	}
+
+}
