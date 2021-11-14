@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.Scanner;					 
+		/*	Display a message "You are an excellent student",
+		 * for a student whose cumulative grade point average (CGPA) is 3.75 and above.
+		 */
+public class Cgpa {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter your CGPA :");
+		double cgpa = sc.nextDouble();
+		
+		if (cgpa>=3.75)
+			System.out.println("You are an excellent student");
+		
+		
+	}
+
+}
