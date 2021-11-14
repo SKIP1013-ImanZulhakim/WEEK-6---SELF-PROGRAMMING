@@ -1,0 +1,33 @@
+package selfProgramming;
+
+import java.util.Scanner;
+import java.util.Scanner;
+public class JavaCodeMultipleSelection {
+
+	public static void main(String[] args) {
+		// Java code (multiple selection)
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter Number : ");
+		int a = sc.nextInt();
+		
+		if (a>=1)
+		{
+			  System.out.println ("The number you enter is :" + a);
+			  System.out.println ("You enter the positive number");	
+	  }		
+		else if (a<0)
+		{	
+			  System.out.println ("The number you enter is :" + a);
+			  System.out.println ("You enter the negative number");	
+	  }
+		else 
+		{	
+			  System.out.println ("The number you enter is :" + a);
+			  System.out.println ("You enter the zero number");	
+		}
+
+	}
+
+}
