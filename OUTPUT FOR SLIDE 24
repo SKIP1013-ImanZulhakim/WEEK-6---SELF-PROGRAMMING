@@ -1,0 +1,19 @@
+Enter amount : 
+10000
+Enter balance :
+122
+Enter OVERDRAFT_PENALTY : 
+11
+TRANSACTION NOT ALLOWED
+Your balance is 111
+
+--------------------------------------------
+
+Enter amount : 
+111
+Enter balance :
+111111
+Enter OVERDRAFT_PENALTY : 
+11
+Acct new balance = 111000
+Your balance is 111000
